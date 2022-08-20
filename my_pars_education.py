@@ -27,7 +27,7 @@ headers = {
 with open("my_pars_education.html", encoding='UTF-8-sig') as file:
     src = file.read()
 
-# ищу в этом файле скласс категорий
+# ищу в этом файле класс категорий
 soup = BeautifulSoup(src, "lxml")
 all_items = soup.find_all(class_="mzr-tc-group-item-href")
 # print(all_items)
