@@ -1,3 +1,5 @@
+# material taken fror  here: https://www.youtube.com/watch?v=ks64MvZJe0w
+# slightly modified for Windows
 import random
 import lxml
 from bs4 import BeautifulSoup
